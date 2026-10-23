@@ -1,7 +1,5 @@
 # Aim Dashboard — Valorant & Kovaak's
 
-![Posture et installation](docs/posture.png)
-
 Application Windows (un seul `AimDashboard.exe`) pour suivre ses progrès en aim, avec la **régularité** comme métrique centrale : points forts et faibles, échauffement et plan d'entraînement adaptés à tes résultats (playlists Kovaak's envoyées directement dans le jeu), suivi des sessions et impact de la forme et du mental.
 
 Ce dépôt ne contient que les versions publiées de l'application.
@@ -43,11 +41,15 @@ La licence est vérifiée sur ton PC, sans compte et sans connexion obligatoire.
 | **Plan de la semaine** | 3 à 7 vraies séances (30 à 90 min) réparties sur la semaine selon tes points faibles. Chaque séance = une **playlist Kovaak's écrite directement dans le jeu** (tes scénarios en stagnation d'abord, puis des scénarios connus) + un bloc Valorant + un objectif chiffré. Séance « bilan » en fin de semaine. |
 | **Adaptation automatique** | Chaque scénario reçoit un mode selon tes résultats : **Précision** (trop de tirs ratés : ralentis), **Pousser** (précision bonne mais score bloqué : accélère), **Consolider** ou **Découverte**, avec un objectif chiffré **atteignable**, calculé sur tes propres résultats (entre ta moyenne récente et ton record, précision +3 points max) et le niveau de difficulté adapté. **Boucle de retour** : l'application mesure si tes séances Kovaak's améliorent vraiment tes parties du même jour, et donne plus de place à ce qui marche. Le plan se **réajuste chaque jour** (séances manquées reportées), cible ta **pire map**, et l'échauffement s'adapte à ta **forme du jour** (version courte si fatigué ou alerte pause). Seuils de HS% adaptés à ton **rang** (lu automatiquement via HenrikDev). Suivi des **benchmarks Voltaic**. |
 | **Sessions suivies** | Bouton **Démarrer une session** (forme, humeur et durée prévue) : un **échauffement adapté est généré à chaque démarrage** (points faibles, dernier bilan, alerte pause, forme, humeur, durée), envoyé dans Kovaak's et ouvert directement. Puis, puis **Terminer** (forme et humeur à la fin) : l'application prend toutes les parties classées jouées entre les deux et rédige un **bilan** : résultats vs ta moyenne, évolution pendant la session, forme et tilt, l'échauffement Kovaak's fait juste avant était-il adapté, et ce que le prochain échauffement va changer (l'axe à corriger passe en priorité). Une partie arrivée après la fin met le bilan à jour automatiquement. |
+| **Échauffement physique** | 3 à 5 min avant Kovaak's, en tête de l'échauffement du jour : 9 exercices illustrés (poignets, poings, avant-bras, doigts, épaules, cou, bras croisé, grand étirement, squats), cochés un par un. Pause d'une minute entre les games (rappelée dans la notification de nouvelle partie) et rappel **20-20-20** pour les yeux pendant une session. |
+| **Posture et installation** | Schéma de profil de la position idéale avec repères numérotés (écran à hauteur des yeux à 50-70 cm, dos, genoux et coudes à 90°, avant-bras posé, poignet droit), détails bras/poignet et souris (à basse sensibilité, le mouvement part du coude), liste de vérification de ta configuration. |
 | **Mental et forme** | ACS selon la fatigue, le tilt et l'échauffement, corrélations et conclusions en phrases. |
 | **Objectifs** | Objectifs chiffrés (HS%, K/D, ACS, ADR, KAST, win rate, régularité, score Kovaak's) avec barre de progression. |
 | **Saisie** | Formulaire rapide pour une partie, import CSV/JSON avec modèles fournis, journal de session, paramètres. |
 
 ![Guide de démarrage](docs/guide.png)
+
+![Posture et installation](docs/posture.png)
 
 ## Tes données
 
