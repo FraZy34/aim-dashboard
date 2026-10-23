@@ -1,5 +1,7 @@
 # Aim Dashboard — Valorant & Kovaak's
 
+![Posture et installation](docs/posture.png)
+
 Application Windows (un seul `AimDashboard.exe`) pour suivre ses progrès en aim, avec la **régularité** comme métrique centrale : points forts et faibles, échauffement et plan d'entraînement adaptés à tes résultats (playlists Kovaak's envoyées directement dans le jeu), suivi des sessions et impact de la forme et du mental.
 
 Ce dépôt ne contient que les versions publiées de l'application.
