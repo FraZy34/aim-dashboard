@@ -45,11 +45,14 @@ La licence est vérifiée sur ton PC, sans compte et sans connexion obligatoire.
 | **Posture et installation** | Schéma de profil de la position idéale avec repères numérotés (écran à hauteur des yeux à 50-70 cm, dos, genoux et coudes à 90°, avant-bras posé, poignet droit), détails bras/poignet et souris (à basse sensibilité, le mouvement part du coude), liste de vérification de ta configuration. |
 | **Mental et forme** | ACS selon la fatigue, le tilt et l'échauffement, corrélations et conclusions en phrases. |
 | **Objectifs** | Objectifs chiffrés (HS%, K/D, ACS, ADR, KAST, win rate, régularité, score Kovaak's) avec barre de progression. |
+| **Mode streamer** | **8 overlays OBS** (source « Navigateur », fond transparent) servis depuis ton PC, sans compte ni clé envoyée à un tiers, et mis à jour tout seuls après chaque partie : rang et RR (carte, pilule ou barre), stats du stream comparées à ta moyenne, carte « dernière partie » animée, bandeau défilant, badge « Échauffé », ta config (sens, DPI, eDPI, viseur), scène **récap** de fin de stream et scène **« Je reviens »** avec compte à rebours. Aperçu en direct, couleur, langue (FR/EN), taille et éléments réglables. **Récap du stream** prêt à coller sur Discord ou X, comparaison **en stream / hors stream**. |
 | **Saisie** | Formulaire rapide pour une partie, import CSV/JSON avec modèles fournis, journal de session, paramètres. |
 
 ![Guide de démarrage](docs/guide.png)
 
 ![Posture et installation](docs/posture.png)
+
+![Mode streamer](docs/mode-streamer.png)
 
 ## Tes données
 
