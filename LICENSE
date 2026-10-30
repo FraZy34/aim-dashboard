@@ -1,14 +1,18 @@
-Aim Dashboard — Copyright (c) 2026 FraZy34. Tous droits réservés.
+Aim Dashboard — Copyright (c) 2026 FraZy34.
 
-Ce logiciel est propriétaire. Son utilisation nécessite une licence personnelle délivrée par l'auteur.
+Aim Dashboard est un logiciel GRATUIT (freeware).
 
-Une licence donne le droit d'utiliser Aim Dashboard sur le ou les PC pour lesquels elle a été délivrée,
-pour un usage personnel. Il est interdit de partager, revendre ou publier une clé de licence, de
-contourner la vérification de licence, ou de modifier, décompiler ou redistribuer le logiciel.
-L'auteur peut désactiver une licence utilisée en violation de ces conditions.
+Vous pouvez le télécharger, l'utiliser et le partager librement, gratuitement, sur autant de PC
+que vous le souhaitez, à condition de le distribuer tel quel (fichier non modifié) et sans le vendre.
+
+Il est interdit de vendre Aim Dashboard, de le faire payer, ou de le redistribuer modifié.
 
 Le logiciel est fourni « en l'état », sans garantie d'aucune sorte. L'auteur ne peut être tenu
 responsable d'aucun dommage lié à son utilisation.
 
-Valorant est une marque de Riot Games, Inc. KovaaK's est une marque de The Meta. Aim Dashboard
-n'est ni développé, ni approuvé, ni soutenu par ces sociétés.
+Valorant est une marque de Riot Games, Inc. Les icônes de rang affichées dans les overlays
+appartiennent à Riot Games. KovaaK's est une marque de The Meta. Aim Dashboard n'est ni développé,
+ni approuvé, ni soutenu par ces sociétés.
+
+La police Inter intégrée aux overlays est distribuée sous licence SIL Open Font License 1.1
+(voir src/AimDashboard.Core/Streaming/fonts/LICENSE-Inter.txt).

@@ -10,21 +10,13 @@ Ce dépôt ne contient que les versions publiées de l'application.
 
 1. **Télécharge** `AimDashboard.exe`, range-le où tu veux (Bureau, dossier Jeux…) et **double-clique dessus**. Rien à installer : tout est inclus dans le fichier.
 2. **Si Windows affiche « Windows a protégé votre ordinateur »** : *Informations complémentaires* → *Exécuter quand même* (programme sans signature payante, une seule fois).
-3. **Active ta licence** (voir ci-dessous), puis laisse-toi guider par le **Guide de démarrage**.
+3. Laisse-toi guider par le **Guide de démarrage**.
+
+**Gratuit :** aucun compte, aucune licence, aucun abonnement. Tu peux le partager librement (sans le vendre ni le modifier).
 
 **Mises à jour :** automatiques. Quand une nouvelle version sort, une fenêtre te propose « Mettre à jour maintenant » ; l'application se met à jour et redémarre toute seule. Tes données sont conservées.
 
 > Configuration requise : Windows 10 ou 11, 64 bits.
-
-## 🔑 Licence
-
-Aim Dashboard s'utilise avec une **licence personnelle**.
-
-1. Au premier lancement, la fenêtre *Activer Aim Dashboard* affiche le **code de ton PC** (ex. `7U4W-NA2R-4YS6-ZCC7`) : clique sur *Copier*.
-2. Envoie ce code à **FraZy34** pour obtenir ta licence.
-3. Colle la **clé de licence** reçue (elle commence par `AIMD-`) et clique sur *Activer*.
-
-La licence est vérifiée sur ton PC, sans compte et sans connexion obligatoire. Elle est liée à ton PC : pour un autre PC, demande une licence pour ce PC. Le code du PC est une empreinte : il ne contient aucune information personnelle.
 
 ![Vue d'ensemble](docs/vue-ensemble.png)
 ## Fonctionnalités
@@ -48,6 +40,7 @@ La licence est vérifiée sur ton PC, sans compte et sans connexion obligatoire.
 | **Mode streamer** | **8 overlays OBS** (source « Navigateur », fond transparent) servis depuis ton PC, sans compte ni clé envoyée à un tiers, et mis à jour tout seuls après chaque partie : rang et RR (carte, pilule ou barre), stats du stream comparées à ta moyenne, carte « dernière partie » animée, bandeau défilant, badge « Échauffé », ta config (sens, DPI, eDPI, viseur), scène **récap** de fin de stream et scène **« Je reviens »** avec compte à rebours. Aperçu en direct, couleur, langue (FR/EN), taille et éléments réglables. **Récap du stream** prêt à coller sur Discord ou X, comparaison **en stream / hors stream**. |
 | **Bot de chat Twitch** | Le chat tape **!rank, !rr, !stats, !lastgame, !sens, !crosshair, !warmup** (et leurs alias) et ton compte répond tout seul avec tes vraies stats, en fil sous le message. Option : annonce de chaque nouvelle partie dans le chat. Connexion par code sur twitch.tv/activate (l'application ne voit jamais ton mot de passe, droits limités au chat), délai réglable entre deux réponses, commandes activables une par une avec l'aperçu de ce que le bot répondrait maintenant. |
 | **Délai de stream** | Pilote **[Stream Delay](https://github.com/FraZy34/stream-delay-app)** (délai réglable en direct pour OBS → Twitch, utile contre le stream sniping) depuis *Mode streamer* : état en direct (EN DIRECT, TAMPON EN COURS, EN DIFFÉRÉ), **Armer**, **Activer le différé**, **Couper**, ajustement du délai, avertissements d'OBS. Stream Delay reste une application à part : Aim Dashboard le lance et lui parle sur son API locale (127.0.0.1, jeton lu sur ce PC). |
+| **Langue / Language** | Interface en **français ou en anglais** (Paramètres → Application ; par défaut, la langue de Windows). Le bot Twitch répond dans la langue choisie ; les overlays ont leur propre réglage FR/EN. |
 | **Saisie** | Formulaire rapide pour une partie, import CSV/JSON avec modèles fournis, journal de session, paramètres. |
 
 ![Guide de démarrage](docs/guide.png)
@@ -63,4 +56,4 @@ Tout reste sur ton PC (`%APPDATA%\AimDashboard`) : base de données, réglages e
 Aim Dashboard n'est ni développé ni soutenu par Riot Games ou Kovaak's.
 
 ---
-© 2026 FraZy34 — tous droits réservés. Voir [LICENSE](LICENSE).
+© 2026 FraZy34 — logiciel gratuit. Voir [LICENSE](LICENSE).
